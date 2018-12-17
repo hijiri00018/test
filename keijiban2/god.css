@@ -1,0 +1,93 @@
+header ul{
+list-style:none;
+background-color:lightblue;
+color:red;
+width:100%;
+height:30px;
+font-size:20px;
+}
+
+header li{float:left;
+padding-left:30;}
+
+body{font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
+hajimeni{clear:both;
+width:95%;
+margin: 0 auto;
+margin-top:70px;
+}
+
+.lh{
+float:left;
+width:70%;
+}
+
+.lh h1{margin:0 auto;
+margin-top:10px;
+margin-left:10px;
+border-top:5px dotted blue;
+border-bottom:5px dotted red;
+font-size:25px;
+margin-bottom:10px;
+    width:98%}
+
+form{margin: 0 auto;
+margin-bottom:20px;
+background-color:lightblue;
+border:3px blue solid;
+border-radius: 10px;
+width:100%;
+height:350px;}
+
+form h2{
+font-size:30px;
+margin-left:50px;
+}
+
+form label{
+margin-left:20px;
+color:red;
+}
+
+.pi{
+margin-left:20px;
+margin-top:10px;
+}
+
+.cm{margin: 0 auto;
+margin-bottom:20px;
+background-color:#FFBBFF;
+border:3px red solid;
+border-radius: 10px;
+width:100%;
+height:150px;
+}
+
+.cm h2{clear:both;
+margin-left:20px;
+}
+
+.rh{float:left;
+padding-left:10px;
+margin-left:20px;
+width:25%;
+border-left:20px dotted blue;
+border-right:20px dotted red;
+} 
+
+.rh h2{
+border-bottom:1px solid gray;
+}
+
+
+
+footer{text-align:center;
+clear:both;
+position: fixed;
+bottom: 0;
+width:100%;
+color:white;
+background-color:black;
+}
