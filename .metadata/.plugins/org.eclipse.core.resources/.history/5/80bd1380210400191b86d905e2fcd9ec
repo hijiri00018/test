@@ -1,0 +1,6 @@
+<%@page errorPage="total-error.jsp"%>
+<%request.setCharacterEncoding("UFT-8");
+int price=Integer.parseInt(request.getParemeter("price"));
+int count=Integer.parseInt(request.getParemeter("count"));
+int delivery=Integer.parseInt(request.getParemeter("delivery"));
+%>

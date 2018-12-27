@@ -1,0 +1,43 @@
+package com.internousdev.webproj2.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.internousdev.webproj2.util.DBConnector;
+
+public class LoginDAO{
+
+	private String username;
+	private String password;
+
+	public String excute(){
+		String ret=ERROR;
+		LoginDAO dao=new LoginDAO();
+		boolean b=dao.select(username,password);
+
+		if(b==true){
+			ret=SUCCESS;
+		}else{
+			ret=ERROR;
+	}
+
+	return ret;
+}
+public String getUsername(){
+	return username;
+}
+
+public void setUsername(String username){
+	this.username=username;
+}
+
+public String getPassword(){
+	return password;
+}
+
+public void setPassword(String password){
+	this.password=password;
+}
+}

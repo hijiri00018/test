@@ -1,0 +1,8 @@
+package com.internousdev.webproj2.util;
+import java.sql.Connection;
+import java.sql.DriverManagar;
+import java.sql.SQLEcetion;
+
+public interface DBConnector {
+
+}
